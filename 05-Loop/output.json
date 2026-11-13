@@ -1,0 +1,28 @@
+﻿{
+    "instances":  [
+                      {
+                          "instance_id":  "i-011744f53f933b16e",
+                          "instance_type":  "t3.micro",
+                          "name":  "sriram-dev-Sales-0",
+                          "private_ip":  "172.31.23.219",
+                          "public_ip":  "34.228.200.224",
+                          "security_group_id":  "sg-0bf5b163687a7428a"
+                      },
+                      {
+                          "instance_id":  "i-059aa4cf97c418074",
+                          "instance_type":  "t3.micro",
+                          "name":  "sriram-dev-Tech-1",
+                          "private_ip":  "172.31.20.206",
+                          "public_ip":  "100.53.184.75",
+                          "security_group_id":  "sg-0820bf25bc9be0526"
+                      },
+                      {
+                          "instance_id":  "i-00a35d2034a41d34a",
+                          "instance_type":  "t3.micro",
+                          "name":  "sriram-dev-HR-2",
+                          "private_ip":  "172.31.21.135",
+                          "public_ip":  "54.162.162.163",
+                          "security_group_id":  "sg-09db8bae1ddc0626e"
+                      }
+                  ]
+}
