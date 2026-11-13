@@ -8,4 +8,3 @@ resource "aws_instance" "test" {
         Name = "${var.project}-${var.environment}-${var.instances[count.index]}-${count.index}"
     }
 }
-

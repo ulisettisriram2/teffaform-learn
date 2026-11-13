@@ -1,3 +1,3 @@
-output "ec2_output" {
-    value = aws.instance.output
-} 
+#output "ec2_output" {
+ #   value = aws.instance.output
+#} 
