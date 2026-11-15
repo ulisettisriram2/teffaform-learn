@@ -1,0 +1,56 @@
+{
+  "ec2_info": {
+    "sensitive": false,
+    "type": [
+      "object",
+      {
+        "Name": [
+          "tuple",
+          [
+            "string",
+            "string"
+          ]
+        ],
+        "SG_Name": [
+          "tuple",
+          [
+            "string",
+            "string"
+          ]
+        ],
+        "private_ip": [
+          "tuple",
+          [
+            "string",
+            "string"
+          ]
+        ],
+        "public_ip": [
+          "tuple",
+          [
+            "string",
+            "string"
+          ]
+        ]
+      }
+    ],
+    "value": {
+      "Name": [
+        "Tech-dev-EcomStore",
+        "Sales-dev-EcomStore"
+      ],
+      "SG_Name": [
+        "Tech-dev-EcomStore-SG",
+        "Sales-dev-EcomStore-SG"
+      ],
+      "private_ip": [
+        "172.31.26.89",
+        "172.31.30.184"
+      ],
+      "public_ip": [
+        "50.19.26.16",
+        "54.227.2.1"
+      ]
+    }
+  }
+}
